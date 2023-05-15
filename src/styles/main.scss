@@ -99,16 +99,16 @@ body {
 @mixin dark {
   --color-background: #202020;
   --color-background2: rgba(32, 32, 32, 0.3);
-  --color-bg-chart: #24292f;
-  --color-bg-card: #24292f;
+  --color-bg-chart: #292a2a;
+  --color-bg-card: #292a2a;
   --color-focus-blue: #306081;
-  --btn-bg: #24292f;
+  --btn-bg: #292a2a;
   --color-proxy-border: #5074a06b;
   --card-hover-border-lightness: #306081;
   --color-text: #ddd;
   --color-text-secondary: #ccc;
   --color-text-highlight: #fff;
-  --color-bg-sidebar: #24292f;
+  --color-bg-sidebar: #292a2a;
   --color-sb-active-row-bg: #30363d;
   --color-sb-active-row-font: #eee;
   --color-input-bg: #2d2d30;
@@ -128,7 +128,7 @@ body {
   --bc-tooltip: #555;
   --select-border-color: #040404;
   --select-bg-hover: url(data:image/svg+xml,%0A%20%20%20%20%3Csvg%20width%3D%228%22%20height%3D%2224%22%20viewBox%3D%220%200%208%2024%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M4%207L7%2011H1L4%207Z%22%20fill%3D%22%23ffffff%22%20%2F%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M4%2017L1%2013L7%2013L4%2017Z%22%20fill%3D%22%23ffffff%22%20%2F%3E%0A%20%20%20%20%3C%2Fsvg%3E%0A%20%20);
-  --bg-log-info-card: #24292f;
+  --bg-log-info-card: #292a2a;
 }
 
 @mixin light {
