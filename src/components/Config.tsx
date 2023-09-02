@@ -364,16 +364,14 @@ function ConfigImpl({
                 onClick={handleReloadConfigFile}
               />
             </div>
-            {version.meta && !version.premium && (
-              <div>
-                <div className={s0.label}>GEO Databases</div>
-                <Button
-                  start={<DownloadCloud size={16} />}
-                  label={t('update_geo_databases_file')}
-                  onClick={handleUpdateGeoDatabasesFile}
-                />
-              </div>
-            )}
+            <div>
+              <div className={s0.label}>GEO Databases</div>
+              <Button
+                start={<DownloadCloud size={16} />}
+                label={t('update_geo_databases_file')}
+                onClick={handleUpdateGeoDatabasesFile}
+              />
+            </div>
             <div>
               <div className={s0.label}>FakeIP</div>
               <Button
