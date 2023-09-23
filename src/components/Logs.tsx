@@ -20,9 +20,9 @@ const { useCallback, useEffect } = React;
 
 const colors = {
   debug: '#389d3d',
-  info: '#58c3f2',
-  warning: '#cc5abb',
-  error: '#c11c1c',
+  info: '#96cafe',
+  warning: '#fffeb7',
+  error: '#fa6c60',
 };
 
 const logTypes = {
